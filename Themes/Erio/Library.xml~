@@ -1,0 +1,13 @@
+<Window>
+	<AssetLoader>
+		<asset id="txtr_topBar" type="image" location="/home/tim/Projects/nakobi/Themes/Erio/res/images/topBar.png"/>
+		<asset id="txtr_bg" type="image" location="/home/tim/Projects/nakobi/Themes/Erio/res/images/bg.png"/>
+	</AssetLoader>
+	<ObjectStack>
+		<object id="obj_bg" type="sprite" asset="txtr_bg" x="0" y="0" repeat-x="true" repeat-y="true"/>
+		<object id="obj_topBar" type="sprite" asset="txtr_topBar" x="0" y="0" repeat-x="true"/>
+	</ObjectStack>
+	<EventStack>
+		<event target="baka" onMouseClick="action()"/>
+	</EventStack>
+</Window>
